@@ -1,0 +1,26 @@
+.round-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333333;
+    border: none;
+    cursor: pointer;
+}
+
+.button-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.round-button:hover {
+    background-color: #808080;
+}
+
+.heroicon {
+    width: 20px;
+    height: 20px;
+    color: white;
+}

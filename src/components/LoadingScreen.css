@@ -1,0 +1,25 @@
+.loading-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.loading-screen.fade-out {
+    opacity: 0;
+}
+
+.hi {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 1s ease, transform 2s ease;
+}
+
+.hi.slide-in {
+    opacity: 1;
+    transform: translateY(0);
+}

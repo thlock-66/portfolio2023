@@ -1,0 +1,72 @@
+.work-listing {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 72px;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+}
+
+.row-image {
+    width: 100%;
+    box-shadow: 0px 4px 144px rgba(47, 45, 76, 0.2);
+    border-radius: 24px;
+}
+
+.content-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.content-text p {
+    margin: 0;
+}
+
+.contact-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.contact-row p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    margin: 0;
+}
+
+.contact-row a {
+    text-decoration: none;
+}
+
+.contact-row .outline-button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.img2 {
+    background-color: #D5E5F1;
+}

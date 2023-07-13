@@ -1,0 +1,125 @@
+.home {
+    margin: 188px 72px 0 72px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 56px;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px !important;
+    line-height: 48px !important;
+    color: #333333;
+    margin: 0 !important;
+    text-align: left;
+}
+
+.textcontainer {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    max-width: 670px;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease, transform 3s ease;
+}
+
+.textcontainer.slide-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.textcontainer a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.inlinebutton {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    background-color: transparent;
+    border: none;
+    height: 40px;
+
+}
+
+.inlinebutton:hover {
+    border-bottom: 2px solid #333333;
+    border-radius: 0px;
+}
+
+h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px !important;
+    line-height: 40px !important;
+    color: #333333;
+    margin: 0 !important;
+}
+
+.arrow {
+    width: 32px;
+    height: 32px;
+}
+
+.outline-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border: 1px solid #333333;
+    border-radius: 100px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.downloadicon {
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+}
+
+.outline-button:hover {
+    background-color: #F5F5F5;
+}
+
+.background-frame {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-image: url('../img/homepage-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 3s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
