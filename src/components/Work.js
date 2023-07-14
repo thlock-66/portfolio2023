@@ -61,23 +61,28 @@ const Work = () => {
                 </div>
                 <div className={`card-work ${cardsVisible.includes(1) ? 'visible' : ''}`}>
                     <div className="col-5">
-                        <img src={card2} alt="Card 2" />
+                        <a>
+                            <Link to="/worklisting2">
+                                <div className="overlay-container">
+                                    <img src={card4} alt="Card 4" />
+                                </div>
+                            </Link>
+                        </a>
                     </div>
                     <div>
                         <div className="card-work-text">
-                            <h1>Photography Website</h1>
+                            <h1>Robot Nurse Interface Design</h1>
                             <div className='card-work-text2'>
                                 <p className='body-large'>
-                                    A simple website designed to house my photography/past school work and learn React.
-                                </p>
+                                    Worked on the UI design for a Robotic Nurse Assistant, Florence, as well as product/concept design and prototyping for the robotic base                                 </p>
                                 <p className='sub-text'>
-                                    Developed with React, hosted on Firebase
+                                    Designed in Figma/AfterEffects, developed in PyQt5
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className={`card-work button-row ${cardsVisible.includes(1) ? 'visible' : ''}`}>
+                <div className={`card-work button-row ${cardsVisible.includes(2) ? 'visible' : ''}`}>
                     <ButtonRound
                         icon={<LinkIcon className="heroicon" />}
                         link="https://portfolio-fde6f.web.app/"
@@ -102,7 +107,7 @@ const Work = () => {
                         <img src={card3} alt="Card 3" />
                     </div>
                 </div>
-                <div className={`card-work button-row-right ${cardsVisible.includes(2) ? 'visible' : ''}`}>
+                <div className={`card-work button-row-right ${cardsVisible.includes(3) ? 'visible' : ''}`}>
                     <ButtonRound
                         icon={<LinkIcon className="heroicon" />}
                         link="https://beta.pub.gov.sg/"
@@ -110,22 +115,17 @@ const Work = () => {
                 </div>
                 <div className={`card-work ${cardsVisible.includes(3) ? 'visible' : ''}`}>
                     <div className="col-5">
-                        <a>
-                            <Link to="/worklisting2">
-                                <div className="overlay-container">
-                                    <img src={card4} alt="Card 4" />
-                                </div>
-                            </Link>
-                        </a>
+                        <img src={card2} alt="Card 2" />
                     </div>
                     <div>
                         <div className="card-work-text">
-                            <h1>Robot Nurse Interface Design</h1>
+                            <h1>Photography Website</h1>
                             <div className='card-work-text2'>
                                 <p className='body-large'>
-                                    Worked on the UI design for a Robotic Nurse Assistant, Florence, as well as product/concept design and prototyping for the robotic base                                 </p>
+                                    A simple website designed to house my photography/past school work and learn React.
+                                </p>
                                 <p className='sub-text'>
-                                    Designed in Figma/AfterEffects, developed in PyQt5
+                                    Developed with React, hosted on Firebase
                                 </p>
                             </div>
                         </div>
@@ -137,10 +137,10 @@ const Work = () => {
                             <h1>Portfolio Website</h1>
                             <div className='card-work-text2'>
                                 <p className='body-large'>
-                                    A simple website designed to showcase my works and portfolio as well as to learn React.
+                                    A simple website designed to showcase my works and portfolio as well as to learn React and Blender.
                                 </p>
                                 <p className='sub-text'>
-                                    Designed in Figma, developed with React and hosted on Firebase
+                                    Designed in Blender/Figma, developed with React and hosted on Firebase
                                 </p>
                             </div>
                         </div>

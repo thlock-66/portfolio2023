@@ -24,3 +24,15 @@
     line-height: 32px;
     color: #333333;
 }
+
+.background-frame {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-image: url('../img/catwaving.gif');
+    background-size: cover;
+    background-position: center;
+    padding: 16px;
+    width: 50%;
+    height: 90%;
+}

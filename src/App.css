@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Poppins";
+  src: url('./fonts/Poppins/Poppins-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url('./fonts/Poppins/Poppins-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsLight";
+  src: url('./fonts/Poppins/Poppins-Italic.ttf') format("truetype");
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +47,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

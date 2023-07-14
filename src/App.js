@@ -9,6 +9,10 @@ import WorkListing2 from "./components/WorkListing2";
 import LoadingScreen from "./components/LoadingScreen";
 import About from "./components/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./fonts/Poppins/Poppins-Regular.ttf";
+import "./fonts/Poppins/Poppins-Bold.ttf"
+import "./fonts/Poppins/Poppins-Light.ttf"
+
 
 
 const App = () => {

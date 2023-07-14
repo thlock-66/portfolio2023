@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import { ArrowDownTrayIcon } from '@heroicons/react/24/outline';
 
-
-
 const Home = () => {
     const [showMessage, setShowMessage] = useState(false);
     const [isVisible, setIsVisible] = useState(false);
