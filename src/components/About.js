@@ -4,14 +4,14 @@ import './About.css';
 const AboutMe = () => {
     return (
         <div>
-            <div className="background-frame">
+            <div className="background-frame1">
             </div>
             <div className="about-me col-7">
                 <div className="about-text">
                     <h1>About Me</h1>
                     <div>
                         <p>
-                            Hello! I’m Lock Yin.
+                            Hello! I’m Lock Yin! I have two cats.
                         </p>
                         <p>
                             I am a Product Designer, with a passion for creating interactive and fun digital experiences.

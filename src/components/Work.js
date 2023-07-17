@@ -49,7 +49,7 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-5">
+                    <div className="col-md-8 col-lg-5 mb-5 mb-lg-0 ms-lg-4">
                         <a>
                             <Link to="/worklisting">
                                 <div className="overlay-container">
@@ -59,8 +59,8 @@ const Work = () => {
                         </a>
                     </div>
                 </div>
-                <div className={`card-work ${cardsVisible.includes(1) ? 'visible' : ''}`}>
-                    <div className="col-5">
+                <div className={`card-work right ${cardsVisible.includes(1) ? 'visible' : ''}`}>
+                    <div className="col-md-8 col-lg-5 mb-5 mb-lg-0 me-lg-4">
                         <a>
                             <Link to="/worklisting2">
                                 <div className="overlay-container">
@@ -103,7 +103,7 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-5">
+                    <div className="col-md-8 col-lg-5 mb-5 mb-lg-0 ms-lg-4">
                         <img src={card3} alt="Card 3" />
                     </div>
                 </div>
@@ -113,8 +113,8 @@ const Work = () => {
                         link="https://beta.pub.gov.sg/"
                     />
                 </div>
-                <div className={`card-work ${cardsVisible.includes(3) ? 'visible' : ''}`}>
-                    <div className="col-5">
+                <div className={`card-work right ${cardsVisible.includes(3) ? 'visible' : ''}`}>
+                    <div className="col-md-8 col-lg-5 mb-5 mb-lg-0 me-lg-4">
                         <img src={card2} alt="Card 2" />
                     </div>
                     <div>
@@ -145,7 +145,7 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-5">
+                    <div className="col-md-8 col-lg-5 mb-5 mb-lg-0 ms-lg-4">
                         <img src={card5} alt="Card 5" />
                     </div>
                 </div>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
-import { ArrowDownTrayIcon } from '@heroicons/react/24/outline';
+import ResumeButton from './ResumeButton';
 
 const Home = () => {
     const [showMessage, setShowMessage] = useState(false);
@@ -18,7 +18,7 @@ const Home = () => {
                 <div className="background-frame">
                 </div>
                 <div className="row">
-                    <div className="col-md-7">
+                    <div className="col-lg-7">
                         <div className="text">
                             <div className={`textcontainer ${showMessage ? 'slide-in' : ''}`}>
                                 <h1>Hello! My name is Lock Yin :-)</h1>
@@ -27,9 +27,9 @@ const Home = () => {
                                     <h4>Check out some of my work here</h4> <ArrowRightIcon className="arrow" />
                                 </Link>
                             </div>
-                            <button className="outline-button">
-                                Resume <ArrowDownTrayIcon className="downloadicon" />
-                            </button>
+                            <div>
+                                <ResumeButton />
+                            </div>
                         </div>
                     </div>
                 </div>

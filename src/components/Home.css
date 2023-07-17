@@ -1,5 +1,9 @@
 .home {
     margin: 188px 72px 0 72px;
+
+    @media (max-width: 768px) {
+        margin: 24px 56px 0 56px;
+    }
 }
 
 .text {
@@ -8,6 +12,11 @@
     align-items: flex-start;
     padding: 0px;
     gap: 56px;
+
+    @media (max-width: 768px) {
+        align-items: center;
+        gap: 24px;
+    }
 }
 
 h1 {
@@ -19,6 +28,17 @@ h1 {
     color: #333333;
     margin: 0 !important;
     text-align: left;
+
+    @media (max-width: 992px) {
+        font-size: 28px !important;
+        line-height: 40px !important;
+    }
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+
+
 }
 
 .textcontainer {
@@ -32,6 +52,17 @@ h1 {
     opacity: 0;
     transform: translateX(-100%);
     transition: opacity 1s ease, transform 3s ease;
+
+    @media (max-width: 992px) {
+        max-width: 400px;
+    }
+
+    @media (max-width: 768px) {
+        max-width: 600px;
+        align-items: center;
+
+    }
+
 }
 
 .textcontainer.slide-in {
@@ -69,11 +100,23 @@ h4 {
     line-height: 40px !important;
     color: #333333;
     margin: 0 !important;
+
+    @media (max-width: 992px) {
+        font-size: 20px !important;
+        line-height: 32px !important;
+    }
+
 }
 
 .arrow {
     width: 32px;
     height: 32px;
+
+    @media (max-width: 992px) {
+        width: 24px;
+        height: 24px;
+    }
+
 }
 
 .outline-button {
@@ -91,6 +134,14 @@ h4 {
     font-size: 24px;
     line-height: 40px;
     color: #333333;
+    text-decoration: none;
+
+    @media (max-width: 992px) {
+        font-size: 20px !important;
+        line-height: 32px !important;
+    }
+
+
 }
 
 .downloadicon {
@@ -101,18 +152,30 @@ h4 {
 
 .outline-button:hover {
     background-color: #F5F5F5;
+    text-decoration: none;
+    color: #333333;
 }
 
 .background-frame {
     position: fixed;
     bottom: 0;
     right: 0;
-    background-image: url('../img/homepage-bg.png');
+    background-image: url('../img/catwaving.gif');
     background-size: cover;
     background-position: center;
     padding: 20px;
     width: 50%;
-    height: 100%;
+    height: 90%;
+
+    @media (max-width: 992px) {
+        height: 80%;
+    }
+
+    @media (max-width: 768px) {
+        right: 23%;
+        height: 40%;
+    }
+
 }
 
 .fade-in {
