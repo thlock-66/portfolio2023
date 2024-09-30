@@ -5,6 +5,7 @@ import ButtonRound from './ButtonRound';
 import { ReactComponent as Github } from '../img/github.svg';
 import { ReactComponent as Figma } from '../img/figma.svg';
 import { LinkIcon } from '@heroicons/react/24/outline';
+import card0 from '../img/card-0.png';
 import card1 from '../img/card-1.gif';
 import card2 from '../img/card-2.png';
 import card3 from '../img/card-3.png';
@@ -35,6 +36,29 @@ const Work = () => {
     return (
         <div className="workpage">
             <div className="card-container">
+            <div className={`card-work right ${cardsVisible.includes(1) ? 'visible' : ''}`}>
+                    <div className="col-md-8 col-lg-5 mb-5 mb-lg-0 me-lg-4">
+                        <a>
+                            <Link to="/worklisting3">
+                                <div className="overlay-container">
+                                    <img src={card0} alt="Card 0" />
+                                </div>
+                            </Link>
+                        </a>
+                    </div>
+                    <div className='col-md-8 col-lg-5'>
+                        <div className="card-work-text">
+                            <h1>A*STAR Projects</h1>
+                            <div className='card-work-text2'>
+                                <p className='body-large'>
+                                Projects done under the Integrated Digital Product Center as a Senior UX Designer                                 </p>
+                                <p className='sub-text'>
+                                    Designed in Figma
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className={`card-work ${cardsVisible.includes(0) ? 'visible' : ''}`}>
                     <div>
                         <div className="card-work-text">

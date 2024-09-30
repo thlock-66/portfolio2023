@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Work from "./components/Work";
 import WorkListing from "./components/WorkListing";
 import WorkListing2 from "./components/WorkListing2";
+import WorkListing3 from "./components/WorkListing3";
 import LoadingScreen from "./components/LoadingScreen";
 import About from "./components/About";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -36,6 +37,7 @@ const App = () => {
             <Route path='/work' element={<Work />} />
             <Route path='/worklisting' element={<WorkListing />} />
             <Route path='/worklisting2' element={<WorkListing2 />} />
+            <Route path='/worklisting3' element={<WorkListing3 />} />
             <Route path='/about' element={<About />} />
           </Routes>
         </>
