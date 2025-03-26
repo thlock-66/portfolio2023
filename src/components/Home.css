@@ -1,188 +1,30 @@
-.home {
-    margin: 188px 72px 0 72px;
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
-    @media (max-width: 768px) {
-        margin: 24px 56px 0 56px;
-    }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 56px;
-
-    @media (max-width: 768px) {
-        align-items: center;
-        gap: 24px;
-    }
+body {
+  overflow: hidden;
 }
 
 h1 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 34px !important;
-    line-height: 48px !important;
-    color: #333333;
-    margin: 0 !important;
-    text-align: left;
-
-    @media (max-width: 992px) {
-        font-size: 28px !important;
-        line-height: 40px !important;
-    }
-
-    @media (max-width: 768px) {
-        text-align: center;
-    }
-
-
+color: #1d1d1d;
+font-family: Poppins;
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
 }
 
-.textcontainer {
-    margin-top: 160px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-    max-width: 670px;
-    opacity: 0;
-    transform: translateX(-100%);
-    transition: opacity 1s ease, transform 3s ease;
-
-    @media (max-width: 992px) {
-        max-width: 400px;
-    }
-
-    @media (max-width: 768px) {
-        max-width: 600px;
-        align-items: center;
-
-    }
-
+h2 {
+  font-family: 'Archivo Black', sans-serif;
 }
 
-.textcontainer.slide-in {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-.textcontainer a {
-    color: #333333;
-    text-decoration: none;
-}
-
-.inlinebutton {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 16px;
-    background-color: transparent;
-    border: none;
-    height: 40px;
-
-}
-
-.inlinebutton:hover {
-    border-bottom: 2px solid #333333;
-    border-radius: 0px;
-}
-
-h4 {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px !important;
-    line-height: 40px !important;
-    color: #333333;
-    margin: 0 !important;
-
-    @media (max-width: 992px) {
-        font-size: 20px !important;
-        line-height: 32px !important;
-    }
-
-}
-
-.arrow {
-    width: 32px;
-    height: 32px;
-
-    @media (max-width: 992px) {
-        width: 24px;
-        height: 24px;
-    }
-
-}
-
-.outline-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 24px;
-    border: 1px solid #333333;
-    border-radius: 100px;
-    background-color: transparent;
-    cursor: pointer;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 40px;
-    color: #333333;
-    text-decoration: none;
-
-    @media (max-width: 992px) {
-        font-size: 20px !important;
-        line-height: 32px !important;
-    }
-
-
-}
-
-.downloadicon {
-    width: 20px;
-    height: 20px;
-    margin-left: 16px;
-}
-
-.outline-button:hover {
-    background-color: #F5F5F5;
-    text-decoration: none;
-    color: #333333;
-}
-
-.background-frame {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    background-image: url('../img/catwaving.gif');
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-    width: 50%;
-    height: 90%;
-
-    @media (max-width: 992px) {
-        height: 80%;
-    }
-
-    @media (max-width: 768px) {
-        right: 23%;
-        height: 40%;
-    }
-
-}
-
-.fade-in {
-    opacity: 0;
-    transition: opacity 3s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
+.App {
+  text-align: center;
 }

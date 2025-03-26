@@ -3,10 +3,14 @@ import './About.css';
 
 const AboutMe = () => {
     return (
-        <div>
+        <div style =
+        {{
+            height: "100vh", 
+            backgroundColor: "#FFFCF9"
+        }}>
             <div className="background-frame1">
             </div>
-            <div className="about-me col-7">
+            <div className="about-me col-6">
                 <div className="about-text">
                     <h1>About Me</h1>
                     <div>

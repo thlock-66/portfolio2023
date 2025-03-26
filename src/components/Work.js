@@ -157,33 +157,6 @@ const Work = () => {
                         link="https://github.com/thlock-66/personalsite/"
                     />
                 </div>
-                <div className={`card-work ${cardsVisible.includes(4) ? 'visible' : ''}`}>
-                    <div>
-                        <div className="card-work-text">
-                            <h1>Portfolio Website</h1>
-                            <div className='card-work-text2'>
-                                <p className='body-large'>
-                                    A simple website designed to showcase my works and portfolio as well as to learn React and Blender.
-                                </p>
-                                <p className='sub-text'>
-                                    Designed in Blender/Figma, developed with React and hosted on Firebase
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-8 col-lg-5 mb-5 mb-lg-0 ms-lg-4">
-                        <img src={card5} alt="Card 5" />
-                    </div>
-                </div>
-                <div className={`card-work button-row-right ${cardsVisible.includes(4) ? 'visible' : ''}`}>
-                    <ButtonRound
-                        icon={<Figma />}
-                        link="https://www.figma.com/file/1SN97Y1WTGSxW7geyumyGY/Portfolio?type=design&node-id=0%3A1&t=0KJqBE12Ths3e1pg-1"
-                    />
-                    <ButtonRound icon={<Github />}
-                        link="https://github.com/thlock-66/portfolio2023/tree/master"
-                    />
-                </div>
             </div>
         </div >
     );
