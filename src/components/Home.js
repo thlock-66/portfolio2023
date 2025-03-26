@@ -234,7 +234,7 @@ const App = () => {
                 fontWeight: 400,
                 lineHeight: "normal",
             }}>
-                Hello!
+                Hey there!
             </h1>
             <h1 className="tag-text" style={{
                 color: "#1d1d1d",

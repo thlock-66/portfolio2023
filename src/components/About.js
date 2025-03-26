@@ -12,7 +12,7 @@ const AboutMe = () => {
         }}>
         <div className="background-frame1">
             </div>
-            <div className="about-me col-6">
+            <div className="about-me col-12 col-lg-6">
                 <div className="about-text">
                     <h1>About Me</h1>
                     <div>
@@ -29,12 +29,12 @@ const AboutMe = () => {
                             In my free time, I enjoy bouldering as well as photography.
                         </p>                     
                     </div>
-                <div className="resumesection">
-                    <div>
-                        <ResumeButton />
+                    <div className="resumesection">
+                        <div>
+                            <ResumeButton />
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
     );
