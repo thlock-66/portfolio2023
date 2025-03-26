@@ -21,6 +21,12 @@ h2 {
   font-family: 'Archivo Black', sans-serif;
 }
 
+.tag-text {
+    @media (max-width: 600px) {
+      font-size: 40px !important;
+  }
+}
+
 .App {
   text-align: center;
 }

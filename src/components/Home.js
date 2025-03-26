@@ -260,7 +260,7 @@ const App = () => {
         padding: "8px 32px",
         justifyContent: "center",
         alignItems: "center",
-        gap: "8px"
+        gap: "8px",
       }}>
         {displayedTag}
       </h2>
