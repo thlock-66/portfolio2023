@@ -157,6 +157,8 @@ const Work = () => {
                         link="https://github.com/thlock-66/personalsite/"
                     />
                 </div>
+                <div style = {{height: "72px"}}>
+                </div>
             </div>
         </div >
     );

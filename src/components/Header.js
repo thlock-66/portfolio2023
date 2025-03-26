@@ -6,12 +6,13 @@ import './Header.css';
 
 const Header = () => {
     const [hasShadow, setHasShadow] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
             const scrollPosition = window.scrollY;
-            const shouldHaveShadow = scrollPosition > 0;
-            setHasShadow(shouldHaveShadow);
+            setHasShadow(scrollPosition > 0);
+            setIsScrolled(scrollPosition > 0);
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -22,7 +23,7 @@ const Header = () => {
     }, []);
 
     return (
-        <header className={`header ${hasShadow ? 'shadow' : ''}`}>
+        <header className={`header ${hasShadow ? 'shadow' : ''} ${isScrolled ? 'scrolled' : ''}`}>
             <div className="headercontent">
                 <div className="logo">
                     <a>

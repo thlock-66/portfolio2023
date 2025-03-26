@@ -226,11 +226,25 @@ const App = () => {
         flexDirection: "column",
         alignItems: "flex-start",
         gap: "8px",
-        marginBottom: "32px",
+        marginBottom: "56px",
         alignSSelf: "stretch"}}>
-      <h1 >Hello!</h1>
-      <h1> I am Lock Yin :-)</h1>
-      </div>
+            <h1 className="tag-text" style={{
+                color: "#1d1d1d",
+                fontSize: "56px",
+                fontWeight: 400,
+                lineHeight: "normal",
+            }}>
+                Hello!
+            </h1>
+            <h1 className="tag-text" style={{
+                color: "#1d1d1d",
+                fontSize: "56px",
+                fontWeight: 400,
+                lineHeight: "normal",
+            }}>
+                I am Lock Yin :-)
+            </h1>
+        </div>
 
       {/* Display the typed out tag */}
       <h2 className="tag-text" style={{

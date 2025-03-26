@@ -1,14 +1,16 @@
 import React from 'react';
+import ResumeButton from './ResumeButton.js';
 import './About.css';
 
 const AboutMe = () => {
     return (
         <div style =
         {{
-            height: "100vh", 
-            backgroundColor: "#FFFCF9"
+            overflow: "hidden",
+            backgroundColor: "#FFFCF9",
+            height: "100vh"
         }}>
-            <div className="background-frame1">
+        <div className="background-frame1">
             </div>
             <div className="about-me col-6">
                 <div className="about-text">
@@ -25,11 +27,16 @@ const AboutMe = () => {
                         </p>
                         <p>
                             In my free time, I enjoy bouldering as well as photography.
-                        </p>
+                        </p>                     
+                    </div>
+                <div className="resumesection">
+                    <div>
+                        <ResumeButton />
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     );
 };
 

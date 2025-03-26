@@ -17,7 +17,12 @@ const WorkListing = () => {
                     As part of the Integrated Digital Product Center (IDPC) in A*STAR, I worked as a Senior UX Designer to turn research into digital products.                        
                     <br></br>
                     <br></br>
-                    Some of the products I worked on included a Speech Evaluation Product, targeted at students and teachers to learn and evaluate speech in English and Chinese easily. This was a web-based product, which was responsive to be used on phones and tablets by the students, and on desktops for teachers.                    </p>
+                    Some of the products I worked on included a Speech Evaluation Product, targeted at students and teachers to learn and evaluate speech in English and Chinese easily. This was web-based and designed to be responsive to be used on phones and tablets by the students, and on desktops for teachers.
+                    <br></br>
+                    <br></br>
+                    Other projects include a Gen-AI integrator to help harness the power of LLMs and Gen-AI to improve workflows, working with industry partners such as a Real Estate Property Startup, leading ideation and UX workshops to design a better journey and experience for their users .
+
+                    </p>
                 </div>
                 <div className="col-6">
                     <img src={Image1} alt="Image 1" className="row-image img2" />
@@ -30,10 +35,10 @@ const WorkListing = () => {
 
                 <div className="content-text">
                     <p>
-                    Some other notable projects I worked on was on a dental application, together with NDC, for removable partial dentures for the elderly, a robot management platform, as well as a delivery and fleet optimisation product.                        
+                    Some other notable projects I worked on was on a removable denture design application, in collaboration with NDC, for dentists to easily create removable partial dentures for the elderly, a robot management platform for deployment to NHCS, as well as a delivery and fleet optimisation product.                        
                     <br></br>
                     <br></br>
-                    As many of these products are confidential, I am unable to share the full screens designed but am always happy to share more about what these products are about.
+                    As these products are confidential, I am unable to share the full screens designed but am always happy to share more about these products and my design process over a chat!
                     </p>
                 </div>
             </div>
